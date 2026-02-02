@@ -23,7 +23,7 @@ noBtn.addEventListener('click', () => {
 
 
 yesBtn.addEventListener('click', () => {
-    responseText.textContent = 'Are you sure??';
+    responseText.textContent = 'Actuallyyyyy?????';
     gif.src = 'https://i.pinimg.com/originals/3e/47/7e/3e477e83c35e2a7a38f19ccdad163faa.gif';
     title.style.color = 'transparent';
     title.style.height = '0';
