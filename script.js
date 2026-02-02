@@ -8,6 +8,20 @@ const yesSound = document.getElementById('yesSound');
 const noSound = document.getElementById('noSound');
 
 
+// sounds
+
+noBtn.addEventListener('mouseenter', () => {
+    hoverSound.play();
+});
+
+yesBtn.addEventListener('click', () => {
+    yesSound.play();
+});
+
+noBtn.addEventListener('click', () => {
+    noSound.play();
+});
+
 
 yesBtn.addEventListener('click', () => {
     responseText.textContent = 'Great choice pookie!!! 💖 💞';
@@ -36,7 +50,7 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 noBtn.addEventListener('click', () => {
-    responseText.textContent = 'You're fast, but wrong button 🤭';
+    responseText.textContent = 'You are fast, but wrong button 🤭';
     gif.src = 'https://i.pinimg.com/originals/3e/47/7e/3e477e83c35e2a7a38f19ccdad163faa.gif';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
@@ -112,19 +126,7 @@ window.addEventListener('resize', () => {
 });
 
 
-// sounds
 
-noBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
-});
-
-yesBtn.addEventListener('click', () => {
-    yesSound.play();
-});
-
-noBtn.addEventListener('click', () => {
-    noSound.play();
-});
 
 
 
