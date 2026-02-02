@@ -108,6 +108,10 @@ window.addEventListener('resize', () => {
     canvas.height = window.innerHeight;
 });
 
+yesBtn.addEventListener('click', () => {
+    console.log("Playing yesSound...");
+    yesSound.play().catch(error => console.log("Audio failed:", error));
+});
 // sounds
 
 yesBtn.addEventListener('mouseenter', () => {
@@ -126,7 +130,4 @@ noBtn.addEventListener('click', () => {
     noSound.play();
 });
 
-yesBtn.addEventListener('click', () => {
-    console.log("Playing yesSound...");
-    yesSound.play().catch(error => console.log("Audio failed:", error));
-});
+
