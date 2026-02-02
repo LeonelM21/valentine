@@ -19,8 +19,8 @@ yesBtn.addEventListener('click', () => {
 
 yesBtn.addEventListener('click', () => {
     confetti({
-        particleCount: 100,
-        spread: 70,
+        particleCount: 200,
+        spread: 50,
         origin: { y: 0.6 }
     });
 });
