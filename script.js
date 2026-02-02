@@ -7,20 +7,6 @@ const hoverSound = document.getElementById('hoverSound');
 const yesSound = document.getElementById('yesSound');
 const noSound = document.getElementById('noSound');
 
-// sounds
-
-noBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
-});
-
-yesBtn.addEventListener('click', () => {
-    yesSound.play();
-});
-
-noBtn.addEventListener('click', () => {
-    noSound.play();
-});
-
 
 yesBtn.addEventListener('click', () => {
     responseText.textContent = 'Actuallyyyyy?????';
@@ -133,6 +119,19 @@ window.addEventListener('resize', () => {
 });
 
 
+// sounds
+
+noBtn.addEventListener('mouseenter', () => {
+    hoverSound.play();
+});
+
+yesBtn.addEventListener('click', () => {
+    yesSound.play();
+});
+
+noBtn.addEventListener('click', () => {
+    noSound.play();
+});
 
 
 
