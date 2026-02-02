@@ -8,6 +8,14 @@ const yesSound = document.getElementById('yesSound');
 const noSound = document.getElementById('noSound');
 
 yesBtn.addEventListener('click', () => {
+    responseText.textContent = 'Are you sure??';
+    gif.src = 'https://i.pinimg.com/originals/3e/47/7e/3e477e83c35e2a7a38f19ccdad163faa.gif';
+    title.style.color = 'transparent';
+    title.style.height = '0';
+    title.style.margin = '0';
+});
+
+yesBtn.addEventListener('click', () => {
     responseText.textContent = 'Thank you pookie!!! 💖 💞';
     gif.src = 'https://i.pinimg.com/originals/b4/65/34/b46534530b0ef3ffac6636f068dd2e12.gif';
     yesBtn.style.display = 'none';
