@@ -31,7 +31,7 @@ yesBtn.addEventListener('click', () => {
 });
 
 yesBtn.addEventListener('click', () => {
-    responseText.textContent = 'Thank you pookie!!! 💖 💞';
+    responseText.textContent = 'Great choice pookie!!! 💖 💞';
     gif.src = 'https://i.pinimg.com/originals/b4/65/34/b46534530b0ef3ffac6636f068dd2e12.gif';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
