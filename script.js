@@ -4,8 +4,7 @@ const noBtn = document.getElementById('noBtn');
 const responseText = document.getElementById('responseText');
 const gif = document.querySelector('.gif');
 const hoverSound = document.getElementById('hoverSound');
-const yesSound = document.getElementById('yesSound');
-const noSound = document.getElementById('noSound');
+
 
 yesBtn.addEventListener('click', () => {
     responseText.textContent = 'Thank you pookie!!! 💖 💞';
@@ -111,12 +110,5 @@ window.addEventListener('resize', () => {
 
 // sounds
 
-yesBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
-});
-
-noBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
-});
 
 
