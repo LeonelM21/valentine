@@ -113,10 +113,6 @@ window.addEventListener('resize', () => {
 
 // sounds
 
-yesBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
-});
-
 noBtn.addEventListener('mouseenter', () => {
     hoverSound.play();
 });
