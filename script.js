@@ -110,7 +110,7 @@ window.addEventListener('resize', () => {
 });
 
 
-});
+
 // sounds
 
 yesBtn.addEventListener('mouseenter', () => {
