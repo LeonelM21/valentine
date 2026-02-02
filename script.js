@@ -8,13 +8,6 @@ const yesSound = document.getElementById('yesSound');
 const noSound = document.getElementById('noSound');
 
 
-yesBtn.addEventListener('click', () => {
-    responseText.textContent = 'Actuallyyyyy?????';
-    gif.src = 'https://i.pinimg.com/originals/3e/47/7e/3e477e83c35e2a7a38f19ccdad163faa.gif';
-    title.style.color = 'transparent';
-    title.style.height = '0';
-    title.style.margin = '0';
-});
 
 yesBtn.addEventListener('click', () => {
     responseText.textContent = 'Great choice pookie!!! 💖 💞';
