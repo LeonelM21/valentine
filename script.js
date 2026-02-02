@@ -19,8 +19,8 @@ yesBtn.addEventListener('click', () => {
 
 yesBtn.addEventListener('click', () => {
     confetti({
-        particleCount: 200,
-        spread: 50,
+        particleCount: 250,
+        spread: 70,
         origin: { y: 0.6 }
     });
 });
@@ -53,7 +53,7 @@ document.addEventListener('mousemove', (e) => {
     const heart = new Heart();
     heart.x = e.clientX;
     heart.y = e.clientY;
-    heart.size = 10;
+    heart.size = 15;
     heart.speed = 1;
     hearts.push(heart);
 });
