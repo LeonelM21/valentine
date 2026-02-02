@@ -7,6 +7,21 @@ const hoverSound = document.getElementById('hoverSound');
 const yesSound = document.getElementById('yesSound');
 const noSound = document.getElementById('noSound');
 
+// sounds
+
+noBtn.addEventListener('mouseenter', () => {
+    hoverSound.play();
+});
+
+yesBtn.addEventListener('click', () => {
+    yesSound.play();
+});
+
+noBtn.addEventListener('click', () => {
+    noSound.play();
+});
+
+
 yesBtn.addEventListener('click', () => {
     responseText.textContent = 'Are you sure??';
     gif.src = 'https://i.pinimg.com/originals/3e/47/7e/3e477e83c35e2a7a38f19ccdad163faa.gif';
@@ -119,18 +134,6 @@ window.addEventListener('resize', () => {
 
 
 
-// sounds
 
-noBtn.addEventListener('mouseenter', () => {
-    hoverSound.play();
-});
-
-yesBtn.addEventListener('click', () => {
-    yesSound.play();
-});
-
-noBtn.addEventListener('click', () => {
-    noSound.play();
-});
 
 
